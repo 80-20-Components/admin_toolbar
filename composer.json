@@ -91,7 +91,7 @@
         },
         "patches": {
             "drupal/admin_toolbar": {
-                "Coding Standards on Javascript": "https://www.drupal.org/files/issues/2020-05-30/3144122-2.patch"
+                "Coding Standards": "https://www.drupal.org/files/issues/2020-05-30/3144122-4.patch"
             }
         }
     },
