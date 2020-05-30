@@ -17,7 +17,7 @@
     "require": {
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6",
-        "drupal/admin_toolbar": "^2.0",
+        "drupal/admin_toolbar": "2.x-dev",
         "drupal/core-composer-scaffold": "^8.9",
         "drupal/core-recommended": "^8.9",
         "drush/drush": "^10.2",
@@ -90,11 +90,8 @@
             "drupal/core": "-p2"
         },
         "patches": {
-            "drupal/core": {
-                "Password reset link should immediately detect if the link is expired": "https://www.drupal.org/files/issues/2020-05-21/3059158-42.patch"
-            },
             "drupal/admin_toolbar": {
-                "Administration Menu Javascript ESLint errors": "https://www.drupal.org/files/issues/admin_menu-fix_eslint_erros_warnings-2490318-3.patch"
+                "Coding Standards on Javascript": "https://www.drupal.org/files/issues/2020-05-30/3144122-2.patch"
             }
         }
     },
